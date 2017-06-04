@@ -16,7 +16,9 @@ module.exports = {
       'webdriver.chrome.driver': require('chromedriver').path
     }
   },
-
+  custom_commands_path: [
+    './node_modules/nightwatch-axe/src/commands'
+  ],
   test_settings: {
     default: {
       selenium_port: 4444,

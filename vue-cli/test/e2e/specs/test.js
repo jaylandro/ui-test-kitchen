@@ -2,7 +2,7 @@
 // http://nightwatchjs.org/guide#usage
 
 module.exports = {
-  'default e2e tests': function (browser) {
+  'default e2e and accesibility tests': (browser) => {
     // automatically uses dev Server port from /config.index.js
     // default: http://localhost:8080
     // see nightwatch.conf.js
@@ -14,6 +14,12 @@ module.exports = {
       .assert.elementPresent('.hello')
       .assert.containsText('h1', 'Welcome to Your Vue.js PWA')
       .assert.elementCount('img', 1)
+      .axeInject()
+      .axeRun('body', {
+        rules: {
+          'color-contrast': { enabled: false }
+        }
+      })
       .end()
   }
 }

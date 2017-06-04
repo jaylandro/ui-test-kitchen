@@ -16,7 +16,7 @@ export default {
     btn
   },
   methods: {
-    clickBtn: () => console.log('from test method')
+    clickBtn: () => 'from test method'
   }
 }
 </script>

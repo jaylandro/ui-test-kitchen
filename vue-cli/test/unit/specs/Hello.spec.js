@@ -8,4 +8,10 @@ describe('Hello.vue', () => {
     expect(vm.$el.querySelector('.hello h1').textContent)
       .to.equal('Welcome to Your Vue.js PWA')
   })
+  it('should console log out from test method', () => {
+    const Constructor = Vue.extend(Hello)
+    const vm = new Constructor().$mount()
+    expect(vm.clickBtn())
+      .to.equal('from test method')
+  })
 })
