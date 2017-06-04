@@ -1,15 +1,10 @@
 # UI Test Kitchen
-## Amuse Bouche
-* casper / resurrectio
-
 ## Appetizer
-* <https://saucelabs.com/>
-* headless chrome
-
-## Main Course
 * Jest 
 * AVA
-* Mocha Jasmine
+
+## Main Course
+* Webdriver API
 
 ## Dessert
 * Visual Regression Testing

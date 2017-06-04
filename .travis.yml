@@ -1,4 +1,4 @@
 language: node_js
 node_js:
   - "node"
-script: cd vue-cli && npm install && npm test
+script: cd react-cli && npm install && npm test
