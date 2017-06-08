@@ -35,8 +35,7 @@ module.exports = {
         chromeOptions: {
           args: [
             '--headless'
-          ],
-          'binary': '/Applications/Google Chrome Canary.app/Contents/MacOS/Google Chrome Canary'
+          ]
         }
       }
     },

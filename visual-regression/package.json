@@ -1,0 +1,15 @@
+{
+  "name": "visual-regression",
+  "version": "1.0.0",
+  "description": "Visaul regression with Looks Same",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "author": "Jay Landro",
+  "license": "ISC",
+  "devDependencies": {
+    "looks-same": "^3.2.1",
+    "spectron": "^3.6.4"
+  }
+}
